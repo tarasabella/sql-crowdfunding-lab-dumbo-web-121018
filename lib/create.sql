@@ -1,4 +1,3 @@
-
 CREATE TABLE project (id INTEGER PRIMARY KEY autoincrement, 
 title TEXT, 
 category TEXT, 
