@@ -10,7 +10,7 @@ CREATE TABLE user (id INTEGER PRIMARY KEY autoincrement,
 name TEXT,
 age INTEGER);
 
-CREATE TABLE pledge (id INTEGER PRIMARY KEY autoincrement;
+CREATE TABLE pledge (id INTEGER PRIMARY KEY autoincrement,
 amount INTEGER, 
 user_id INTEGER,
 project_id INTEGER);
